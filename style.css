@@ -67,21 +67,14 @@ nav ul li {
     color: white;
 }
 
-#categories {
-    justify-content: center;
-    display: flex;
-    margin: 0.3em;
-    padding: 1em;
-}
-
-#categories img{
-    width:15em;
-    height:10em;
-}
 
 #categories a img{
     width:15em;
     height:10em;
+    justify-content: center;
+    display: flex;
+    margin: 0 30px;
+
 }
 
 ul{
@@ -92,3 +85,18 @@ ul{
     margin: 1em;
 }
 
+ul figure{
+    list-style:none;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1em;
+}
+
+figcaption{
+    color: white;
+}
+
+figcaption :hover{
+    color: purple;
+}
