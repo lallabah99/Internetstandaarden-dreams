@@ -38,6 +38,10 @@ a:hover{
     color: hotpink;
 }
 
+a:visited{
+    color:hotpink;
+}
+
 
 nav li a{
     margin: 2.3em;
