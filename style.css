@@ -14,7 +14,7 @@ h2{
     text-align: center;
 }
 
-#text{
+p{
     color: white; 
     font-size: 1.5em;
     text-align: center;
@@ -27,39 +27,27 @@ body {
     }
 
 a{
-    color:#6387F2;
+    color:white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5em;
     text-align: center;
+    text-decoration: none;
 }
 
-nav ul{ 
-    list-style:none;
-    display:flex;
-    justify-content: center;
-    text-align: center;
-    margin: none;
+a:hover{
+    color: hotpink;
 }
+
 
 nav li a{
-    color: white;
     margin: 6em;
 }
 
-nav li a:hover{
-    color: purple;
-}
-
-#woman{
+img{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-}
-
-#woman img{
-    width: 65em;
-    height: 40em;
 }
 
 nav ul li {
@@ -68,13 +56,12 @@ nav ul li {
 }
 
 
-#categories a img{
+a img{
     width:12em;
     height:8em;
     justify-content: center;
     display: flex;
     margin: 0 30px;
-
 }
 
 ul{
@@ -85,18 +72,4 @@ ul{
     margin: 1em;
 }
 
-ul figure{
-    list-style:none;
-    display:flex;
-    justify-content: center;
-    text-align: center;
-    margin: 1em;
-}
 
-figcaption{
-    color: white;
-}
-
-figcaption :hover{
-    color: purple;
-}
