@@ -78,6 +78,10 @@ nav ul li {
 
 }
 
+ul li a{
+    font-size:3em;
+}
+
 
 a img{
     height:70%;
@@ -99,4 +103,9 @@ ul{
      font-size: 2em;
 
  }
+
+form{
+    font-size:1.5em;
+    color:white;
+}
 
