@@ -4,27 +4,38 @@
     align-content: center;
     }
 
-#logo a img{
+#logo img{
     margin-left: auto;
     margin-right: auto;
-    width:4em;
-    height: 4em;
+    width:6em;
+    height: 6em;
     
 }
 
 header{
     background-color:rgba(0,0,0,0.5);
     display:block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height:100px;
 }
+
 
 h1{
     font-size: 3em;
     text-align: center;
+    margin-top:4em;
 }
 
 h2{
     font-size: 2em;
     text-align: center;
+}
+
+h3{
+    color:pink;
+    font-size: 1.5em;;
 }
 
 p{
@@ -35,8 +46,8 @@ p{
 
 
 body { 
-     background-image: url(photos/background.png);
-     color:#9CC0CC;
+     background-image: url(photos/background.png); /** bron:http://genchi.info/galaxy-hd-wallpaper **/
+    color:#9CC0CC;
     }
 
 a{
@@ -47,12 +58,8 @@ a{
 }
 
 a:hover{
-    color: hotpink;
+    color:hotpink;
 }
-
-/*a:visited{
-    color:
-}*/
 
 
 nav li a{
@@ -84,9 +91,10 @@ ul li a{
 
 
 a img{
-    height:70%;
-    width:80%;
+    height:8em;
+    width:6.5em;
     display: block;
+    margin:1em;
 }
 
 ul{
@@ -105,7 +113,53 @@ ul{
  }
 
 form{
-    font-size:1.5em;
-    color:white;
+    max-width: 30em;
+	background-color: rgba(44, 0, 37, 0.5);
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #9CC0CC;
+
 }
 
+input.form-input{
+    position:absolute;
+    min-width:30em;
+    min-height: 2em;
+    background-color:thistle;
+}
+
+textarea.form-input{
+    position:absolute;
+    min-width:30em;
+    min-height: 6em;
+    background-color:thistle;
+    border:black;
+
+
+}
+
+input.button{
+    background-color: #9CC0CC;
+    color:black;
+    border:#9CC0CC;
+    width: 5em;
+    margin-top: 6em;
+    margin-left:1em;
+    position:absolute;
+}
+
+img#backgroundmail{
+    float:center;
+    margin-top:4em;
+}
+
+footer{
+    background-color:rgba(0,0,0,0.5); 
+    font-size: 0.5em;
+    display:block;
+    padding:0.5em 2em;
+
+}
